@@ -66,7 +66,58 @@ namespace ClassWPF11
                     Console.WriteLine($" {class19.CountEvenNumber()}");
 
                     break;
+
+                case 20:
+
+                    ArrayProcessor20 class20 = new ArrayProcessor20();
+
+                    class20.InputArray();
+
+                    Console.WriteLine($" {class20.CountEvenNumber()}");
+
+                    break;
+
+                case 21:
+
+                    ArrayProcessor21 class21 = new ArrayProcessor21();
+
+                    class21.InputArray();
+
+                    Console.WriteLine($" {class21.CountEvenNumber()}");
+
+                    break;
+
+                case 22:
+
+                    ArrayProcessor22 class22 = new ArrayProcessor22();
+
+                    class22.InputArray();
+
+                    Console.WriteLine($" {class22.CountEvenNumber()}");
+
+                    break;
+
+                case 23:
+
+                    ArrayProcessor23 class23 = new ArrayProcessor23();
+
+                    class23.InputArray();
+
+                    Console.WriteLine($" {class23.CountEvenNumber()}");
+
+                    break;
+
+                case 24:
+
+                    ArrayProcessor24 class24 = new ArrayProcessor24();
+
+                    class24.InputArray();
+
+                    Console.WriteLine($" {class24.CountEvenNumber()}");
+
+                    break;
             }
         }
+        
     }
 }
