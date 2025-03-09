@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace ClassWPF11.Classes
 {
-    internal class ArrayProcessor2
+    public class ArrayProcessor2
     {
         private int[] array;
         Random random = new Random();
@@ -41,3 +41,21 @@ namespace ClassWPF11.Classes
         }
     }
 }
+
+/*public double CalculateAverageOfNegativModuls()
+{
+    int sumOfModuls = 0;
+    int countOfNegatives = 0;
+
+    foreach (int number in array)
+    {
+        if (number < 0)
+        {
+            sumOfModuls += Math.Abs(number);
+            countOfNegatives++;
+        }
+    }
+
+    return countOfNegatives > 0 ? (double)sumOfModuls / countOfNegatives : 0;
+}
+*/

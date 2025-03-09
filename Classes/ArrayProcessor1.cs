@@ -22,12 +22,12 @@ namespace ClassWPF11.Classes
         {
             for (int i = 0; i < array.Length; i++)
             {
-                array[i] = random.Next(-15, 15) ;
+                array[i] = random.Next(-15, 15);
             }
         }
 
         public int ArrayLength()
-        { 
+        {
             return array.Length;
         }
 
@@ -41,7 +41,7 @@ namespace ClassWPF11.Classes
             int evenCount = 0;
             foreach (int number in array)
             {
-                if(number % 2 == 0)
+                if (number % 2 == 0)
                 {
                     evenCount++;
                 }
