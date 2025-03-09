@@ -26,6 +26,46 @@ namespace ClassWPF11
                     Console.WriteLine($"Кол-во четных элементов в массиве {class1.CountEvenNumber()}");
 
                     break;
+
+                case 16:
+
+                    ArrayProcessor16 class16 = new ArrayProcessor16();
+
+                    class16.InputArray();
+
+                    Console.WriteLine($"Чисел между минимальным и максимальным:{class16.CountEvenNumber()}");
+
+                    break;
+
+                case 17:
+
+                    ArrayProcessor17 class17 = new ArrayProcessor17();
+
+                    class17.InputArray();
+
+                    Console.WriteLine($" {class17.CountEvenNumber()}");
+
+                    break;
+
+                case 18:
+
+                    ArrayProcessor18 class18 = new ArrayProcessor18();
+
+                    class18.InputArray();
+
+                    Console.WriteLine($" {class18.CountEvenNumber()}");
+
+                    break;
+
+                case 19:
+
+                    ArrayProcessor19 class19 = new ArrayProcessor19();
+
+                    class19.InputArray();
+
+                    Console.WriteLine($" {class19.CountEvenNumber()}");
+
+                    break;
             }
         }
     }
