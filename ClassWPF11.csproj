@@ -44,7 +44,22 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Classes\ArrayProcessor1.cs" />
+    <Compile Include="Classes\ArrayProcessor16.cs" />
+    <Compile Include="Classes\ArrayProcessor17.cs" />
+    <Compile Include="Classes\ArrayProcessor18.cs" />
+    <Compile Include="Classes\ArrayProcessor19.cs" />
     <Compile Include="Classes\ArrayProcessor2.cs" />
+    <Compile Include="Classes\ArrayProcessor20.cs" />
+    <Compile Include="Classes\ArrayProcessor21.cs" />
+    <Compile Include="Classes\ArrayProcessor22.cs" />
+    <Compile Include="Classes\ArrayProcessor23.cs" />
+    <Compile Include="Classes\ArrayProcessor24.cs" />
+    <Compile Include="Classes\ArrayProcessor25.cs" />
+    <Compile Include="Classes\ArrayProcessor26.cs" />
+    <Compile Include="Classes\ArrayProcessor27.cs" />
+    <Compile Include="Classes\ArrayProcessor28.cs" />
+    <Compile Include="Classes\ArrayProcessor29.cs" />
+    <Compile Include="Classes\ArrayProcessor30.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
