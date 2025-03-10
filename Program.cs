@@ -241,7 +241,8 @@ namespace ClassWPF11
                     break;
 
                 case 28:
-
+                    ArrayProcessor28 class28 = new ArrayProcessor28();
+                    Console.WriteLine(class28.CalculateSumAndCount());
 
                     break;
 
