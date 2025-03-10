@@ -247,14 +247,11 @@ namespace ClassWPF11
                     break;
 
                 case 29:
-
-                    break;
-
-                case 30:
+                    ArrayProcessor29 class29 = new ArrayProcessor29();
+                    Console.WriteLine(class29.CalculateQuotient());
 
                     break;
             }
         }
-
     }
 }
