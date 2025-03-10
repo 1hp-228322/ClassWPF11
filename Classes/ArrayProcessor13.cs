@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace ClassWPF11.Classes
 {
-    class ArrayProcessor13
+    public class ArrayProcessor13
     {
         private int[] array;
         private int size = 15;

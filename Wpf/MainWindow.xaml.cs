@@ -12,6 +12,8 @@ using System.Windows.Media;
 using System.Windows.Media.Imaging;
 using System.Windows.Navigation;
 using System.Windows.Shapes;
+using Wpf.Core;
+using Wpf.Pages;
 
 namespace Wpf
 {
@@ -20,9 +22,13 @@ namespace Wpf
     /// </summary>
     public partial class MainWindow : Window
     {
-        public MainWindow()
-        {
-            InitializeComponent();
-        }
+            public MainWindow()
+            { 
+                InitializeComponent();
+
+                MainNavigation.MainFrameNav = MainFrame;
+                MainFrame.Navigate(new MainPage());
+            }
+            
     }
 }
