@@ -32,7 +32,7 @@ namespace Wpf.Pages
 
             ArrayProcessor27 class1 = new ArrayProcessor27();
 
-            MessageBox.Show($"Ответ = {class1.CountEvenNumber()}", "Системное сообщение", MessageBoxButton.OK, MessageBoxImage.Information);
+            MessageBox.Show($"Ответ = {class1.ReplaceEvenElementsWithMax()}", "Системное сообщение", MessageBoxButton.OK, MessageBoxImage.Information);
 
         }
     }

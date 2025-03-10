@@ -33,7 +33,7 @@ namespace Wpf.Pages
             //double G = Math.Exp(2 * Convert.ToDouble(TbY.Text)) + Math.Sin(Convert.ToDouble(Tbf.Text)) / Math.Log10(3.8 * Convert.ToDouble(TbY.Text) + Convert.ToDouble(Tbf.Text));
             ArrayProcessor16 class1 = new ArrayProcessor16();
 
-            MessageBox.Show($"Чисел между минимальным и максимальным:{class1.CountEvenNumber()}"", "Системное сообщение", MessageBoxButton.OK, MessageBoxImage.Information);
+            MessageBox.Show($"Чисел между минимальным и максимальным:{class1.CountEvenNumber()}", "Системное сообщение", MessageBoxButton.OK, MessageBoxImage.Information);
 
         }
     }

@@ -32,7 +32,7 @@ namespace Wpf.Pages
 
 
             //double G = Math.Exp(2 * Convert.ToDouble(TbY.Text)) + Math.Sin(Convert.ToDouble(Tbf.Text)) / Math.Log10(3.8 * Convert.ToDouble(TbY.Text) + Convert.ToDouble(Tbf.Text));
-            ArrayProcessor2 class1 = new ArrayProcessor10();
+            ArrayProcessor2 class1 = new ArrayProcessor2();
 
             MessageBox.Show($"Ответ = {class1.NewArray()}", "Системное сообщение", MessageBoxButton.OK, MessageBoxImage.Information);
 

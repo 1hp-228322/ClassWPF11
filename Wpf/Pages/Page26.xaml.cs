@@ -33,7 +33,7 @@ namespace Wpf.Pages
 
             ArrayProcessor26 class1 = new ArrayProcessor26();
 
-            MessageBox.Show($"Ответ = {class1.CountEvenNumber()}", "Системное сообщение", MessageBoxButton.OK, MessageBoxImage.Information);
+            MessageBox.Show($"Ответ = {class1.CalculateDifference()}", "Системное сообщение", MessageBoxButton.OK, MessageBoxImage.Information);
 
         }
     }

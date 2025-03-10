@@ -31,7 +31,7 @@ namespace Wpf.Pages
         {
 
 
-            ArrayProcessor3 class1 = new ArrayProcessor3);
+            ArrayProcessor3 class1 = new ArrayProcessor3();
 
             MessageBox.Show($"Ответ = {class1.GetArrayAsString()} \n {class1.CalculateResult()}", "Системное сообщение", MessageBoxButton.OK, MessageBoxImage.Information);
 
