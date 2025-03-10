@@ -107,15 +107,29 @@ namespace ClassWPF11
 
                     break;
 
-                case 16:
-
-                    ArrayProcessor16 class16 = new ArrayProcessor16();
-
-                    class16.InputArray();
-
-                    Console.WriteLine($"Чисел между минимальным и максимальным:{class16.CountEvenNumber()}");
+                case 13:
+                    ArrayProcessor13 class13 = new ArrayProcessor13();
+                    Console.WriteLine(class13.GetArrayAsString());
+                    Console.WriteLine(class13.CalculateSumAndDifference());
 
                     break;
+
+                case 14:
+                    ArrayProcessor14 class14 = new ArrayProcessor14();
+                    Console.WriteLine(class14.GetArrayAsString());
+                    Console.WriteLine(class14.ReplaceMultiplesOfThree());
+
+                    break;
+
+                case 16:
+
+                        ArrayProcessor16 class16 = new ArrayProcessor16();
+
+                        class16.InputArray();
+
+                        Console.WriteLine($"Чисел между минимальным и максимальным:{class16.CountEvenNumber()}");
+
+                        break;
 
                 case 17:
 
@@ -198,6 +212,6 @@ namespace ClassWPF11
                     break;
             }
         }
-        
+
     }
 }

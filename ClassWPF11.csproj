@@ -47,6 +47,8 @@
     <Compile Include="Classes\ArrayProcessor10.cs" />
     <Compile Include="Classes\ArrayProcessor11.cs" />
     <Compile Include="Classes\ArrayProcessor12.cs" />
+    <Compile Include="Classes\ArrayProcessor13.cs" />
+    <Compile Include="Classes\ArrayProcessor14.cs" />
     <Compile Include="Classes\ArrayProcessor16.cs" />
     <Compile Include="Classes\ArrayProcessor17.cs" />
     <Compile Include="Classes\ArrayProcessor18.cs" />
