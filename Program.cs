@@ -121,15 +121,22 @@ namespace ClassWPF11
 
                     break;
 
+                case 15:
+                    ArrayProcessor15 class15 = new ArrayProcessor15();
+                    Console.WriteLine(class15.GetArrayAsString());
+                    Console.WriteLine(class15.SortArray());
+
+                    break;
+
                 case 16:
 
-                        ArrayProcessor16 class16 = new ArrayProcessor16();
+                    ArrayProcessor16 class16 = new ArrayProcessor16();
 
-                        class16.InputArray();
+                    class16.InputArray();
 
-                        Console.WriteLine($"Чисел между минимальным и максимальным:{class16.CountEvenNumber()}");
+                    Console.WriteLine($"Чисел между минимальным и максимальным:{class16.CountEvenNumber()}");
 
-                        break;
+                    break;
 
                 case 17:
 
@@ -208,6 +215,38 @@ namespace ClassWPF11
                     class24.InputArray();
 
                     Console.WriteLine($" {class24.CountEvenNumber()}");
+
+                    break;
+
+                case 25:
+
+                    ArrayProcessor24 class25 = new ArrayProcessor24();
+
+                    class25.InputArray();
+
+                    Console.WriteLine($" {class25.CountEvenNumber()}");
+
+                    break;
+
+                case 26:
+                    ArrayProcessor26 class26 = new ArrayProcessor26();
+                    Console.WriteLine(class26.CalculateDifference());
+
+                    break;
+
+                case 27:
+
+                    break;
+
+                case 28:
+
+                    break;
+
+                case 29:
+
+                    break;
+
+                case 30:
 
                     break;
             }

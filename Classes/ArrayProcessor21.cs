@@ -8,8 +8,6 @@ namespace ClassWPF11.Classes
 {
     public class ArrayProcessor21
     {
-        int Min;
-        int Max;
         private int[] array;
         private int[] array2;
         Random random = new Random();

@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace ClassWPF11.Classes
 {
-    internal class ArrayProcessor25
+    public class ArrayProcessor25
     {
         int Summ = 0;
         int P = 1;

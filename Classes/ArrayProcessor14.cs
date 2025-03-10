@@ -30,7 +30,6 @@ namespace ClassWPF11.Classes
         {
             int sumOfOddElements = 0;
 
-            // Вычисляем сумму нечетных элементов
             foreach (int num in array)
             {
                 if (num % 2 != 0)
@@ -39,7 +38,6 @@ namespace ClassWPF11.Classes
                 }
             }
 
-            // Заменяем элементы, кратные трем, на сумму нечетных элементов
             for (int i = 0; i < array.Length; i++)
             {
                 if (array[i] % 3 == 0)
