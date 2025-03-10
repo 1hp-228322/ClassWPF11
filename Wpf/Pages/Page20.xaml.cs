@@ -32,7 +32,7 @@ namespace Wpf.Pages
 
 
             //double G = Math.Exp(2 * Convert.ToDouble(TbY.Text)) + Math.Sin(Convert.ToDouble(Tbf.Text)) / Math.Log10(3.8 * Convert.ToDouble(TbY.Text) + Convert.ToDouble(Tbf.Text));
-            ArrayProcessor1 class1 = new ArrayProcessor1();
+            ArrayProcessor20 class1 = new ArrayProcessor20();
 
             MessageBox.Show($"Ответ = {class1.CountEvenNumber()}", "Системное сообщение", MessageBoxButton.OK, MessageBoxImage.Information);
 

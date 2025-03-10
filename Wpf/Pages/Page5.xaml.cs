@@ -31,9 +31,9 @@ namespace Wpf.Pages
         {
 
 
-            ArrayProcessor1 class1 = new ArrayProcessor1();
+            ArrayProcessor5 class1 = new ArrayProcessor5();
 
-            MessageBox.Show($"Ответ = {class1.CountEvenNumber()}", "Системное сообщение", MessageBoxButton.OK, MessageBoxImage.Information);
+            MessageBox.Show($"Ответ = {class1.GetArrayAsString()} \n {class1.SwapMaxWithMin()}", "Системное сообщение", MessageBoxButton.OK, MessageBoxImage.Information);
 
         }
     }

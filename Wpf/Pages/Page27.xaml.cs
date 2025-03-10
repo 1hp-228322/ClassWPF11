@@ -30,7 +30,7 @@ namespace Wpf.Pages
         private void BtnTask11_Click(object sender, RoutedEventArgs e)
         {
 
-            ArrayProcessor1 class1 = new ArrayProcessor1();
+            ArrayProcessor27 class1 = new ArrayProcessor27();
 
             MessageBox.Show($"Ответ = {class1.CountEvenNumber()}", "Системное сообщение", MessageBoxButton.OK, MessageBoxImage.Information);
 
