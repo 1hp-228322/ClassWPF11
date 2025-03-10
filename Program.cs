@@ -235,10 +235,13 @@ namespace ClassWPF11
                     break;
 
                 case 27:
+                    ArrayProcessor27 class27 = new ArrayProcessor27();
+                    Console.WriteLine(class27.ReplaceEvenElementsWithMax());
 
                     break;
 
                 case 28:
+
 
                     break;
 
