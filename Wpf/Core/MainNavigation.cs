@@ -132,10 +132,6 @@ namespace Wpf.Core
                     MainNavigation.MainFrameNav.Navigate(new Page29());
                     break;
 
-                case 30:
-                    MainNavigation.MainFrameNav.Navigate(new Page30());
-                    break;
-
                 default:
                     MessageBox.Show("Неверный номер задания.");
                     break;
